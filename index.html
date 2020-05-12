@@ -6,7 +6,9 @@
     <head>
         <meta charset="utf-8">
         <title>KlukCZ's Amazing Site</title>
+
         <!-- CSS -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -22,20 +24,30 @@
                 <br>
                 <div class="callout mbox">
                     <a href="https://www.twitch.tv/klukcz_original" target="_blank">
-                        <img src="images/PK0BJy0zTV0aY84t.png" width="50" height="50" style="margin-right: 25px; margin-left: 25px">
+                        <img src="images/PK0BJy0zTV0aY84t.png" width="50" height="50" style="margin-right: 25px; margin-left: 25px" class="hoverable">
                     </a>
                     <a href="https://github.com/KlukCZ" target="_blank">
-                        <img src="images/PV3U2kMpx7Cn7KZ2.png" width="50" height="50" style="margin-right: 25px; margin-left: 25px">
+                        <img src="images/PV3U2kMpx7Cn7KZ2.png" width="50" height="50" style="margin-right: 25px; margin-left: 25px" class="hoverable">
                     </a>
                     <a href="https://twitter.com/KlukCZ" target="_blank">
-                        <img src="images/1SdayxHLiDggDxWq.png" width="50" height="50" style="margin-right: 25px; margin-left: 25px">
+                        <img src="images/1SdayxHLiDggDxWq.png" width="50" height="50" style="margin-right: 25px; margin-left: 25px" class="hoverable">
                     </a>
-                    <img src="images/rnp8Dj2MYAOREzy4.png" width="50" height="50" style="margin-right: 25px; margin-left: 25px">
+
+                    <style>
+                        [class~=material-tooltip]{background-color:#7289da;}[class~=material-tooltip]{margin-bottom:100px;}
+                    </style>
+                    <a class="tooltipped" data-position="top" data-margin="10" data-tooltip="KlukCZ#6589">
+                        <img src="images/rnp8Dj2MYAOREzy4.png" width="50" height="50" style="margin-right: 25px; margin-left: 25px" class="hoverable">
+                    </a>
                 </div>
             </div>
             <br>
         </div>
 
         <footer style="text-align: center">© KlukCZ 2020</footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
